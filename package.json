@@ -1,0 +1,23 @@
+{
+  "name": "zelta-server",
+  "version": "0.1.0",
+  "description": "Zelta server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arjun Nair",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "crypto-js": "^4.0.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.1.3",
+    "moment": "^2.26.0",
+    "mongoose": "^5.9.17",
+    "njwt": "^1.0.0",
+    "secure-random": "^1.1.2",
+    "zumjs": "^0.4.2"
+  }
+}
